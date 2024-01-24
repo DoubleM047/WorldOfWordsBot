@@ -2,7 +2,7 @@ import itertools
 import math
 
 open("possibilities.txt", "w").close()
-slovar = open("E:\ZmagovanjeAneja\slovar.txt", "r", encoding='utf-8')
+slovar = open("slovar.txt", "r", encoding='utf-8')
 besede = []
 for i in slovar:
     besede.append(str(i).replace("\n", ""))
